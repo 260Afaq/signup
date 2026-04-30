@@ -1,0 +1,95 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top:15%;
+    align-items: center;
+   background-color: brown;
+
+
+}
+.container .h2{
+    margin-top: 20px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.container {
+  background: #fff;
+  padding: 30px 25px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  text-align: center;\\
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.container input:focus {
+  border-color: #4facfe;
+  box-shadow: 0 0 5px rgba(79,172,254,0.5);
+}
+
+.container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4facfe;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container button:hover {
+  background: #00c6ff;
+}
+
+.container p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.container a {
+  color: #4facfe;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
